@@ -1806,3 +1806,20 @@ footer {
 .menu {
   width: 100%;
 }
+
+.chat {
+  height: 500px;
+  background-image: url(/assets/img/bg-main.jpg);
+  display: flex;
+}
+
+.chat form {
+  margin: auto;
+}
+
+.chat form h1 {
+  line-height: 53px;
+  font-family: AvenirNext, sans-serif;
+  font-size: 5em;
+  color: #fff;
+}
