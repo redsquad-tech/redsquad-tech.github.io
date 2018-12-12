@@ -1,0 +1,28 @@
+.dialog_show {
+        -webkit-animation: dialog_show 1.0s normal forwards ease-in-out;
+        -moz-animation: dialog_show 1.0s normal forwards ease-in-out;
+        -o-animation: dialog_show 1.0s normal forwards ease-in-out;
+}
+
+.dialog {
+        position: absolute;
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, 0);
+}
+
+.chat {
+        height: 500px;
+        background-image: url(/assets/img/bg-main.jpg);
+        display: flex;
+        font-size: 2em;
+        text-align: center;
+}
+
+.inputForm {
+        position: absolute;
+        top: 55%;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+}

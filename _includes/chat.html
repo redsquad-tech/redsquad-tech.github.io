@@ -1,6 +1,39 @@
 <div class="chat">
-  <form>
-  <h1>Привет!</h2>
 
-  </form>
+
+        <div id="dialog" class="dialog dialog_show">
+                <div style="opacity: 0.1">
+                        <div id="request_3" class="request"></div>
+                        <div id="answer_3" class="answer"></div>
+                </div>
+                <div style="opacity: 0.25; margin-top:50px">
+                        <div id="request_2" class="request"></div>
+                        <div id="answer_2" class="answer"></div>
+                </div>
+                <div style="opacity: 0.5; margin-top:50px">
+                        <div id="request_1" class="request">Незнакомец: Расскажи анекдот!</div>
+                        <div id="answer_1" class="answer">ρBot: Гламурная москвичка приезжает погостить в деревню к бабушке.<br>- Бабуль, куда у вас тут ночью сходить можно?<br>- В ведро.</div>
+                </div>
+                <div style="margin-top:50px; text-align:center">
+                        <div id="request_0" class="request">Незнакомец: ioo</div>
+                        <div id="answer_0" class="answer last_answer">ρBot: Попробуй изъясняться по-другому.</div>
+
+                        <button id="btnLike" class="button_small button_like button_like_disabled" style="display: inline;" disabled="">&nbsp;</button>
+                        <button id="btnEdit" class="button_small" style="display: inline;">Исправить ответ</button>
+                        <button id="btnDislike" class="button_small button_dislike button_dislike_disabled" style="display: inline;" disabled="">&nbsp;</button>
+                </div>		
+        </div>
+
+
+        <div class="inputForm">
+                <input autofocus="" id="user_request" class="main_input" type="text">
+                <div class="userName">
+                        <div id="labelUserName" style="cursor:pointer; display:inline">Ваше имя: Незнакомец</div>
+                </div>
+                <br>
+                <button id="btnSay" class="button" style="opacity: 1;">Сказать</button>
+                <div id="patterns_count" class="patterns_count">В базе знаний 567050 записей, 749 создано сегодня.</div>
+        </div>
+
+
 </div>
