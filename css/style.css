@@ -510,6 +510,15 @@ details[open] .example__marker {
   width: 86%;
   margin-left: 7%;
   margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.example__video img{
+  display: none
+}
+.example__video iframe{
+  width: 560px;
+  height: 315px;
 }
 
 .team {
