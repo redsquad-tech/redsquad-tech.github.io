@@ -182,14 +182,6 @@ h1 {
   margin-right: 50px;
   background-size: contain;
 }
-.header__logo-mediascope {
-  background: url('../img/mediascope.png') no-repeat;
-  width: 134px;
-  height: 150px;
-  display: block;
-  margin-right: 50px;
-  background-size: contain;
-}
 .header__logo-rospechat {
   background: url('../img/Logo_rospechat_bw.png') no-repeat;
   width: 140px;
